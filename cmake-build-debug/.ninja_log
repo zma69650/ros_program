@@ -1,0 +1,6 @@
+# ninja log v5
+2	1021	1641977466025745757	robot_start/CMakeFiles/robot_start.dir/src/robot_start.cpp.o	f79e605b0a283703
+1	168	1641977702541737406	robot_start/CMakeFiles/robot_start.dir/src/kvaser.cpp.o	4d6a377f6d3df53a
+1	934	1641976516257779294	robot_start/CMakeFiles/robot_start.dir/src/Lab306_robot.cpp.o	428ec8e85084ec1c
+0	937	1641977941734798714	build.ninja	9a078f426e44b6bc
+168	252	1641977702625737403	devel/lib/robot_start/robot_start	4283434cb4d3ad27

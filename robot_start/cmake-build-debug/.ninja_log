@@ -1,0 +1,11 @@
+# ninja log v5
+2	2422	1648110017772714174	CMakeFiles/robot_start_robot_start.dir/src/robot_start.cpp.o	dd6f0e98db299d46
+2	3208	1650271711177650324	CMakeFiles/lab306_robot_start.dir/src/Lab306_robot.cpp.o	1c13ba875d8b0560
+2	3651	1648110019000714203	CMakeFiles/robot_start_robot_start.dir/src/Lab306_robot.cpp.o	4dc4da1438026a41
+3	193	1649941592588876924	CMakeFiles/lab306_robot_start.dir/src/kvaser.cpp.o	73738127a0513ea9
+3651	3818	1648110019168714207	/home/lab306/catkin_ws/devel/lib/robot_start/robot_start_robot_start	6d7dd7187af915e6
+2	2443	1649941594836841848	CMakeFiles/lab306_robot_start.dir/src/robot_start.cpp.o	790a01e35a3785db
+0	184	1646932808885280904	CMakeFiles/robot_start_robot_start.dir/src/kvaser.cpp.o	eac1d7b1d09d4f2e
+3209	3344	1650271711313650319	/home/lab306/catkin_ws/devel/lib/robot_start/lab306_robot_start	d4efbb04dbfaed04
+2	3722	1650276006405625238	CMakeFiles/lab306_robot_start.dir/src/Lab306_robot.cpp.o	1c13ba875d8b0560
+3722	3880	1650276006565625237	/home/lab306/catkin_ws/devel/lib/robot_start/lab306_robot_start	d4efbb04dbfaed04

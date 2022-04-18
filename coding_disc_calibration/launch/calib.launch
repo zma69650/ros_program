@@ -1,0 +1,9 @@
+<launch>
+    <node pkg="coding_disc_calibration" type="calib" name="calib" output="screen">
+        <param name="calib_odom" type="string" value="/ORB_SLAM/odom"/>
+        <param name="smoother_cmd_vel" type="string" value="/my_cmd_vel"/>
+    </node>
+    <include file="$(find yocs_velocity_smoother)/launch/standalone.launch" >
+    </include>
+    <include file="$(find ORB_SLAM2)/launch/orbslam.launch"></include>
+</launch>

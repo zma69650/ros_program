@@ -1,0 +1,8 @@
+<launch>
+    <node pkg="particlefilterdome" type="pfdome" name="pfdome" output="screen">
+        <param name="Observation" type="string" value="/ORB_SLAM/odom"/>
+        <param name="Prediction" type="string" value="/odom"/>
+    </node>
+</launch>
+
+

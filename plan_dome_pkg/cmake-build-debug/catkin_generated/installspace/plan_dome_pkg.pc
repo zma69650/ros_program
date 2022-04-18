@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: plan_dome_pkg
+Description: Description of plan_dome_pkg
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

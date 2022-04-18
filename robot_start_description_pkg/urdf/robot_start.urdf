@@ -1,0 +1,82 @@
+<robot name="robot_start">
+  <link name="base_link">
+    <visual>
+       <geometry>
+         <cylinder length="0.075" radius="0.22"/>
+       </geometry>
+       <origin rpy="0 0 0" xyz="0 0 0.015"/>
+       <material name="white">
+         <color rgba="1 1 1 1"/>
+       </material>
+    </visual>
+  </link>
+
+  <link name="upper_link">
+    <visual>
+       <geometry>
+         <cylinder length="0.22" radius="0.20"/>
+       </geometry>
+       <origin rpy="0 0 0" xyz="0 0 0.14"/>
+       <material name="white">
+         <color rgba="1 1 1 1"/>
+       </material>
+    </visual>
+  </link>
+
+
+
+  <link name="wheel_1">
+    <visual>
+      <geometry>
+        <cylinder length="0.04" radius="0.06"/>
+      </geometry>
+      <origin rpy="0 1.5707 0.5" xyz="-0.20 -0.12 0"/>
+      <material name="black">
+        <color rgba="0 0 0 1"/>
+      </material>
+    </visual>
+  </link>
+
+  <link name="wheel_2">
+    <visual>
+      <geometry>
+        <cylinder length="0.04" radius="0.06"/>
+      </geometry>
+      <origin rpy="0 1.5707 -0.5" xyz="0.20 -0.12 0"/>
+      <material name="black"/>
+    </visual>
+  </link>
+
+  <link name="wheel_3">
+    <visual>
+      <geometry>
+        <cylinder length="0.04" radius="0.06"/>
+      </geometry>
+      <origin rpy="0 1.5707 1.5707" xyz="0.0 0.24 0"/>
+      <material name="black"/>
+    </visual>
+  </link>
+
+
+
+  <joint name="joint_base_wheel1" type="fixed">
+    <parent link="base_link"/>
+    <child link="wheel_1"/>
+  </joint>
+
+  <joint name="joint_base_wheel2" type="fixed">
+    <parent link="base_link"/>
+    <child link="wheel_2"/>
+  </joint>
+
+  <joint name="joint_base_wheel3" type="fixed">
+    <parent link="base_link"/>
+    <child link="wheel_3"/>
+  </joint>
+
+  <joint name="joint_base_upper" type="fixed">
+    <parent link="base_link"/>
+    <child link="upper_link"/>
+  </joint>
+</robot>
+
